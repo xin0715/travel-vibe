@@ -1,4 +1,4 @@
-name: CI for WeatherVibe
+name: CI for TravelVibe
 
 on:
   push:
