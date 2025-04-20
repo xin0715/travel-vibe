@@ -11,13 +11,13 @@ import Game from '@/pages/Game.vue'
 const routes = [
     { path: '/', component: Index },
     { path: '/weather', component: Weather },
-    { path: '/outfit-guide', component: Outfit },
+    { path: '/outfit', component: Outfit },
     { path: '/travel-planner', component: Planner },
     { path: '/mini-game', component: Game },
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/travel-vibe/'), // 這裡加 base 路徑
     routes
 })
 
